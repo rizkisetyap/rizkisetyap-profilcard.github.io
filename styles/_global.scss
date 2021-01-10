@@ -14,17 +14,23 @@ body {
   background-color: $dark-cyan;
   position: relative;
   max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .img-pattern {
   width: 60%;
   position: fixed;
 
   &:nth-child(1) {
-    top: -35%;
-    left: -25%;
+    top: -45%;
+    left: -30%;
   }
   &:nth-child(2){
-    bottom: -35%;
-    right: -25%;
+    bottom: -75%;
+    right: -20%;
   }
+}
+.container {
+  background-image: url("images/bg-pattern-card.svg");
 }
